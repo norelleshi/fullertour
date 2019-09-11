@@ -1009,6 +1009,14 @@ body {
   font-size: 2rem;
   padding: 1rem;
   margin: 1rem;
-  transition: all .3s ease;
   list-style-type: none;
   background-color: rgba(255, 255, 255, 0.5); }
+  .cmtList span {
+    float: right;
+    opacity: 0;
+    color: #777;
+    font-size: 1.5rem; }
+  .cmtList:hover span {
+    color: #777;
+    opacity: 1;
+    cursor: pointer; }

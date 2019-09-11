@@ -160,6 +160,9 @@ body {
     .u-margin-bottom-big {
       margin-bottom: 5rem !important; } }
 
+.u-margin-top-small {
+  margin-top: 2rem !important; }
+
 .u-margin-top-big {
   margin-top: 8rem !important; }
 
@@ -1008,15 +1011,15 @@ body {
   height: 6rem;
   font-size: 2rem;
   padding: 1rem;
-  margin: 1rem;
+  margin: 1rem 0;
   list-style-type: none;
   background-color: rgba(255, 255, 255, 0.5); }
   .cmtList span {
     float: right;
     opacity: 0;
-    color: #777;
+    color: red;
     font-size: 1.5rem; }
   .cmtList:hover span {
-    color: #777;
+    color: red;
     opacity: 1;
     cursor: pointer; }

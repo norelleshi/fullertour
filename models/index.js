@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 mongoose.set('debug', true);
 
-const url = "mongodb+srv://Norelle:6639@cluster0-i0tnj.mongodb.net/fullertour?retryWrites=true&w=majority";
+const url = process.env.DATABASEURL || "mongodb://localhost:27017/fullertour";
 mongoose.connect(url, { 
 	useNewUrlParser: true,
 	useCreateIndex: true,

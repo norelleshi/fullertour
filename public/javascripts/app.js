@@ -27,12 +27,14 @@ const addComment = (comment) => {
 const createCmt = () => {
 	//Send request to create new todo
 	let usrInput = $('#cmtInput').val();
-	$.post('/api/comments', {content: usrInput})
-	.then((newComment) => {
-		$('#cmtInput').val('');
-		addComment(newComment)
-	})
-	.catch((err) => res.send(err))	
+	if(usrInput){
+		$.post('/api/comments', {content: usrInput})
+		.then((newComment) => {
+			$('#cmtInput').val('');
+			addComment(newComment)
+		})
+		.catch((err) => res.send(err))			
+	}
 }
 
 const removeCmt = (comment) => {

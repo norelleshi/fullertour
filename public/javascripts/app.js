@@ -8,7 +8,7 @@ $(document).ready(() => {
 		createCmt();
   	})
 	
-	$('.list').on('click', 'span', function() {
+	$('.list').on('click', '.cmtList__rmv', function() {
 		removeCmt($(this).parent());
 	})
 });
@@ -19,19 +19,22 @@ const addComments = (comments) => {
 }
 
 const addComment = (comment) => {
-	let newComment = $('<li class="cmtList">' + comment.content + '<span>Remove</span></li>');
+	let newComment = $('<li class="cmtList">' + '<span class="cmtList__name">' + comment.name + '</span>' + '<span>' + comment.content + '</span>' + '<span class="cmtList__rmv">Remove</span></li>');
 	newComment.data('id', comment._id);
 	$('.list').prepend(newComment);
 }
 
-const createCmt = () => {
+const createCmt = (comments) => {
 	//Send request to create new todo
-	let usrInput = $('#cmtInput').val();
-	if(usrInput){
-		$.post('/api/comments', {content: usrInput})
+	let usrInputName = $('#nameInput').val();
+	let usrInputCont = $('#cmtInput').val();
+	
+	if(usrInputName && usrInputCont){
+		$.post('/api/comments', {name: usrInputName, content: usrInputCont})
 		.then((newComment) => {
+			$('#nameInput').val('');
 			$('#cmtInput').val('');
-			addComment(newComment)
+			addComment(newComment);
 		})
 		.catch((err) => res.send(err))			
 	}

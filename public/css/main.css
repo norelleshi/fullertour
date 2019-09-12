@@ -116,7 +116,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-  background-image: linear-gradient(to right, #80c1ff, #5643fa);
+  background-image: linear-gradient(to right, #99ceff, #5643fa);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -280,7 +280,7 @@ body {
       .card__side--back-1 {
         background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
       .card__side--back-2 {
-        background-image: linear-gradient(to right bottom, #80c1ff, #5643fa); }
+        background-image: linear-gradient(to right bottom, #99ceff, #5643fa); }
       .card__side--back-3 {
         background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
   .card:hover .card__side--front {
@@ -298,7 +298,7 @@ body {
     .card__picture--1 {
       background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #80c1ff, #5643fa), url(../img/nat-6.jpg); }
+      background-image: linear-gradient(to right bottom, #99ceff, #5643fa), url(../img/nat-6.jpg); }
     .card__picture--3 {
       background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/nat-7.jpg); }
   .card__heading {
@@ -318,7 +318,7 @@ body {
     .card__heading-span--1 {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
     .card__heading-span--2 {
-      background-image: linear-gradient(to right bottom, rgba(128, 193, 255, 0.85), rgba(86, 67, 250, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(153, 206, 255, 0.85), rgba(86, 67, 250, 0.85)); }
     .card__heading-span--3 {
       background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)); }
   .card__details {
@@ -438,16 +438,16 @@ body {
     .feature-box {
       padding: 2rem; } }
   .feature-box__icon {
-    font-size: 6rem;
-    margin-bottom: .5rem;
+    font-size: 5rem;
+    margin-bottom: 1rem;
     display: inline-block;
-    background-image: linear-gradient(to right, #80c1ff, #5643fa);
+    background-image: linear-gradient(to right, #99ceff, #2998ff);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent; }
     @media only screen and (max-width: 56.25em) {
       .feature-box__icon {
-        margin-bottom: 0; } }
+        margin-bottom: 1rem; } }
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
@@ -787,7 +787,7 @@ body {
 
 .header {
   height: 85vh;
-  background-image: linear-gradient(to right bottom, rgba(128, 193, 255, 0.8), rgba(86, 67, 250, 0.8)), url(../img/hero-small.jpg);
+  background-image: linear-gradient(to right bottom, rgba(153, 206, 255, 0.8), rgba(86, 67, 250, 0.8)), url(../img/hero-small.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
@@ -798,7 +798,7 @@ body {
       height: 95vh; } }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .header {
-      background-image: linear-gradient(to right bottom, rgba(128, 193, 255, 0.8), rgba(86, 67, 250, 0.8)), url(../img/hero.jpg); } }
+      background-image: linear-gradient(to right bottom, rgba(153, 206, 255, 0.8), rgba(86, 67, 250, 0.8)), url(../img/hero.jpg); } }
   @media only screen and (max-width: 37.5em) {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
@@ -847,7 +847,7 @@ body {
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
-  background-image: radial-gradient(#80c1ff, #5643fa);
+  background-image: radial-gradient(#99ceff, #5643fa);
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
   @media only screen and (max-width: 56.25em) {
@@ -954,7 +954,7 @@ body {
 
 .section-features {
   padding: 15rem 2rem;
-  background-image: linear-gradient(to right bottom, rgba(128, 193, 255, 0.8), rgba(86, 67, 250, 0.8)), url(../img/nat-4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(153, 206, 255, 0.8), rgba(86, 67, 250, 0.8)), url(../img/nat-4.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
@@ -981,7 +981,7 @@ body {
 
 .section-book {
   padding: 7rem 2rem;
-  background-image: linear-gradient(to right bottom, #80c1ff, #5643fa); }
+  background-image: linear-gradient(to right bottom, #99ceff, #5643fa); }
   @media only screen and (max-width: 56.25em) {
     .section-book {
       padding: 7rem 1rem; } }

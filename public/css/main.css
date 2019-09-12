@@ -89,7 +89,7 @@ body {
     display: block;
     font-size: 6rem;
     font-weight: 400;
-    letter-spacing: 2.5rem;
+    letter-spacing: 2.8rem;
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out;
@@ -103,9 +103,9 @@ body {
         font-family: 5rem; } }
   .heading-primary--sub {
     display: block;
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 700;
-    letter-spacing: 1.75rem;
+    letter-spacing: 1.2rem;
     animation: moveInRight 1s ease-out; }
     @media only screen and (max-width: 37.5em) {
       .heading-primary--sub {
@@ -693,19 +693,19 @@ body {
 .footer {
   color: #f7f7f7;
   background-color: #333;
-  padding: 4rem 0;
+  padding: 3rem 1rem;
   font-size: 1.4rem; }
   @media only screen and (max-width: 56.25em) {
     .footer {
-      padding: 8rem 0; } }
+      padding: 3rem 1rem; } }
   .footer__logo-box {
     text-align: center;
     margin-bottom: 8rem; }
     @media only screen and (max-width: 56.25em) {
       .footer__logo-box {
         margin-bottom: 6rem; } }
-  .footer__logo {
-    width: 15rem;
+  .footer__logo img {
+    width: 7rem;
     height: auto; }
   .footer__navigation {
     border-top: 1px solid #777;
@@ -811,7 +811,7 @@ body {
     height: 7rem; }
   .header__text-box {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
@@ -946,14 +946,14 @@ body {
 
 .section-about {
   background-color: #f7f7f7;
-  padding: 25rem 0;
+  padding: 15rem 2rem;
   margin-top: -20vh; }
   @media only screen and (max-width: 56.25em) {
     .section-about {
       padding: 20rem 0; } }
 
 .section-features {
-  padding: 20rem 0;
+  padding: 15rem 2rem;
   background-image: linear-gradient(to right bottom, rgba(128, 193, 255, 0.8), rgba(86, 67, 250, 0.8)), url(../img/nat-4.jpg);
   background-size: cover;
   transform: skewY(-7deg);
@@ -966,25 +966,25 @@ body {
 
 .section-tours {
   background-color: #f7f7f7;
-  padding: 25rem 0 15rem 0;
+  padding: 15rem 2rem 10rem 2rem;
   margin-top: -10rem; }
   @media only screen and (max-width: 56.25em) {
     .section-tours {
-      padding: 20rem 0 10rem 0; } }
+      padding: 15rem 1rem 10rem 1rem; } }
 
 .section-stories {
   position: relative;
-  padding: 15rem 0; }
+  padding: 7rem 2rem; }
   @media only screen and (max-width: 56.25em) {
     .section-stories {
-      padding: 10rem 0; } }
+      padding: 7rem 1rem; } }
 
 .section-book {
-  padding: 15rem 0;
+  padding: 7rem 2rem;
   background-image: linear-gradient(to right bottom, #80c1ff, #5643fa); }
   @media only screen and (max-width: 56.25em) {
     .section-book {
-      padding: 10rem 0; } }
+      padding: 7rem 1rem; } }
 
 .book {
   background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
@@ -1010,7 +1010,10 @@ body {
 
 .section-comments {
   background-color: #eee;
-  padding: 2rem; }
+  padding: 7rem 2rem; }
+  @media only screen and (max-width: 56.25em) {
+    .section-comments {
+      padding: 7rem 1rem; } }
 
 .cmtList {
   width: 100%;

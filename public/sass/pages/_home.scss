@@ -1,6 +1,6 @@
 .section-about {
     background-color: $color-grey-light-1;
-    padding: 25rem 0;
+    padding: 15rem 2rem;
     margin-top: -20vh;
 
     @include respond(tab-port) {
@@ -9,7 +9,7 @@
 }
 
 .section-features {
-    padding: 20rem 0;
+    padding: 15rem 2rem;
     background-image: linear-gradient(
         to right bottom,
         rgba($color-primary-light, 0.8), 
@@ -31,29 +31,29 @@
 
 .section-tours {
     background-color: $color-grey-light-1;
-    padding: 25rem 0 15rem 0;
+    padding: 15rem 2rem 10rem 2rem;
     margin-top: -10rem;
 
     @include respond(tab-port) {
-        padding: 20rem 0 10rem 0;
+        padding: 15rem 1rem 10rem 1rem;
     }
 }
 
 .section-stories {
     position: relative;
-    padding: 15rem 0;
+    padding: 7rem 2rem;
 
     @include respond(tab-port) {
-        padding: 10rem 0;
+        padding: 7rem 1rem;
     }
 }
 
 .section-book {
-    padding: 15rem 0;
+    padding: 7rem 2rem;
     background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
     
     @include respond(tab-port) {
-        padding: 10rem 0;
+        padding: 7rem 1rem;
     }
 }
 
@@ -101,7 +101,10 @@
 
 .section-comments {
     background-color: $color-grey-light-2;
-    padding: 2rem;
+    padding: 7rem 2rem;
+	@include respond(tab-port) {
+        padding: 7rem 1rem;
+    }
 }
 .cmtList {
 	width: 100%;

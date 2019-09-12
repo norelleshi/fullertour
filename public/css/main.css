@@ -388,7 +388,7 @@ body {
     position: absolute;
     z-index: 10;
     transition: all .2s;
-    outline-offset: 2rem; }
+    outline-offset: 1.5rem; }
     @media only screen and (max-width: 56.25em) {
       .composition__photo {
         float: left;
@@ -400,7 +400,7 @@ body {
       top: -2rem; }
       @media only screen and (max-width: 56.25em) {
         .composition__photo--p1 {
-          top: 0;
+          top: 2.5rem;
           transform: scale(1.2); } }
     .composition__photo--p2 {
       right: 0;
@@ -417,7 +417,7 @@ body {
         .composition__photo--p3 {
           top: 1rem;
           left: 0;
-          transform: scale(1.1); } }
+          transform: scale(1); } }
     .composition__photo:hover {
       outline: 1.5rem solid #2998ff;
       transform: scale(1.05) translateY(-0.5rem);
@@ -567,7 +567,7 @@ body {
   .popup__left {
     width: 33.333333%;
     display: table-cell; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 56.25em) {
       .popup__left {
         width: 0;
         display: none; } }
@@ -576,7 +576,7 @@ body {
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 56.25em) {
       .popup__right {
         width: 100%;
         display: block;
@@ -585,7 +585,7 @@ body {
   .popup__img {
     display: block;
     width: 100%; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 56.25em) {
       .popup__img {
         width: 0;
         display: none; } }

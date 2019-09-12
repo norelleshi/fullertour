@@ -33,7 +33,7 @@
         width: 33.333333%;
         display: table-cell;
         
-        @include respond(phone) {
+        @include respond(tab-port) {
             width: 0;
             display: none;
         }
@@ -45,7 +45,7 @@
         vertical-align: middle;
         padding: 3rem 5rem;
 
-        @include respond(phone) {
+        @include respond(tab-port) {
             width: 100%;
             display: block;
             vertical-align: middle;
@@ -57,7 +57,7 @@
         display: block;
         width: 100%;
 
-        @include respond(phone) {
+        @include respond(tab-port) {
             width: 0;
             display: none;
         }

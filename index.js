@@ -14,5 +14,5 @@ app.get('/', (req, res) => res.sendFile('index.html'));
 app.use('/api/comments', commentRoutes);
 
 
-app.listen(process.env.PORT, process.env.IP, () => 
+app.listen(process.env.PORT || 3000, process.env.IP, () => 
 		   console.log("The server has started!"));

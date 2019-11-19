@@ -699,11 +699,12 @@ body {
     .footer {
       padding: 3rem 1rem; } }
   .footer__logo-box {
-    text-align: center;
-    margin-bottom: 8rem; }
-    @media only screen and (max-width: 56.25em) {
-      .footer__logo-box {
-        margin-bottom: 6rem; } }
+    margin: auto;
+    margin-bottom: 6rem;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/logo.png); }
   .footer__logo img {
     width: 7rem;
     height: auto; }
@@ -806,9 +807,11 @@ body {
   .header__logo-box {
     position: absolute;
     top: 4rem;
-    left: 4rem; }
-  .header__logo {
-    height: 7rem; }
+    left: 4rem;
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    background-image: url(../img/logo.png); }
   .header__text-box {
     position: absolute;
     top: 50%;

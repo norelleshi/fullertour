@@ -36,11 +36,12 @@
         position: absolute;
         top: 4rem;
         left: 4rem;
+		background-size: cover;
+		width: 130px;
+		height: 130px;
+		background-image: url(../img/logo.png);
     }
-    
-    &__logo {
-        height: 7rem;
-    }
+
     
     &__text-box {
         position: absolute;
